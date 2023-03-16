@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: teal;
+    height: 178vh;
+}
+
+section#header {
+    background-color: teal;
+}
+
+section#header img {
+    height: 55px;
+    margin: 20px;
+}
+
+
+
+div#aviso {
+    background-color: rgba(0, 0, 0, 0.589);
+    width: 65%;
+    height: 60vh;
+    border-radius: 40px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+div#aviso i {
+    display: block;
+    font-size: 50px;
+    color: white;
+}
+
+div#aviso h1 {
+    font-size: 20pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div#aviso p#exp {
+    margin: auto;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+div#aviso p#receita {
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+div#aviso button#assista {
+    height: 55px;
+    border-radius: 100px;
+    border-color: transparent;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div#aviso button#assista a {
+    color: rgb(0, 39, 39);
+    text-decoration: none;
+    text-align: center;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+div.matricula {
+    background-color: white;
+    width: 70%;
+    height: 80vh;
+    border-radius: 40px;
+    margin-left: 55px;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+    line-height: 30px;
+}
+
+div.matricula img {
+    height: 50px;
+}
+
+div.matricula h2 {
+    margin-bottom: 20px;
+    font-size: 25pt;
+    color: rgb(5, 66, 66);
+}
+
+label {
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 100px;
+    background-color: rgba(0, 128, 128, 0.479);
+    height: 40px;
+    width: 100%;
+    text-align: left;
+}
+
+div.input #botao {
+    background-color: teal;
+    margin-top: 20px;
+    height: 50px;
+    color: white;
+    font-size: 13pt;
+    border: none;
+    text-align: center;
+}

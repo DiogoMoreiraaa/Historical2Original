@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+#header {
+    background-color: teal;
+}
+
+#header img {
+    height: 80px;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+}
+
+#navbar {
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+#navbar li a {
+    color: white;
+    text-decoration: none;
+}
+
+section#display {
+    background-color: teal;
+    height: 100vh;
+}
+
+section#display > h1 {
+    margin-left: 20px;
+    font-size: 2.5rem;
+    color: white;
+}
+
+section#display p {
+    margin-left: 20px;
+    margin-top: 30px;
+    color: white;
+    font-size: 1.1em;
+}
+
+button#comecar {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 100px;
+}
+
+button#comecar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+button#comecar:hover {
+    background-color: white;
+    height: 55px;
+    width: 155px;
+    transition: 1s ease;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+button#comecar a:hover {
+    color: teal;
+    font-size: 15pt;
+    transition: 1s ease;
+}
+
+section#aprenda {
+    margin-top: 100px;
+    margin-left: 20px;
+    height: 100vh;
+    font-size: 2rem;
+}
+
+section#aprenda h1{
+    color: rgb(6, 51, 51);
+}
+
+section#aprenda strong {
+    color: teal;
+}
+
+div#historia p{
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 12pt;
+    color: rgb(27, 27, 27);
+}
+
+button.comecar2 {
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: teal;
+    border-color: transparent;
+    border-radius: 100px;
+}
+
+button.comecar2 a {
+    font-size: 13pt;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
+section#cursos {
+    margin-top: 100px;
+    margin-left: 20px;
+    height: 100vh;
+    font-size: 2rem;
+}
+
+section#cursos h1{
+    color: rgb(6, 51, 51);
+}
+
+section#cursos strong {
+    color: teal;
+}
+
+div#exp p{
+    text-align: left;
+    margin-right: 20px;
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 12pt;
+    color: rgb(27, 27, 27);
+}
+
+button.comecar3 {
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: teal;
+    border-color: transparent;
+    border-radius: 100px;
+}
+
+button.comecar3 a {
+    font-size: 13pt;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}

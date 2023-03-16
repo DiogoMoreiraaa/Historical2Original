@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/matricular.css" media="all">
+    <link rel="stylesheet" href="../css/media-query.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="header">
+        <img src="../img/cursoemvideo-logo-branca.png" alt="">
+        <div>
+            <ul id="navbar">
+                <li><a href="#">Cursos</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Seja um apoiador</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Cadastre-se</a></li>
+                <li><a href="#">Validação de Certificado</a></li>
+                <li><a href="#">Hall da Fama</a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="matricula">
+        <div class="container">
+            <div id="aviso">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <h1>IMPORTANTE</h1>
+                <p id="exp">Todos os cursos disponíveis na plataforma do Curso em Vídeo são gratuitos, porém a EMISSÃO DE CERTIFICADOS é um serviço pago, dependendo do pacote contratado.</p>
+                <p id="receita">A receita obtida com a venda dos certificados é usada para o custeio de infraestrutura e pessoal para manter a plataforma funcionando.</p>
+                <button id="assista"><a href="assista.html">ASSISTA O VÍDEO E ENTENDA</a></button>
+            </div>
+            <div class="matricula">
+                <form action="../php/login.php" method="post">
+                    <img src="../img/cursoemvideo-logo.png" alt="">
+                    <h2 class="titulo">Matrícula Grátis</h2>
+                    <label for="inome">Nome * </label>
+                    <div class="input">
+                        <input type="text" name="username" id="username" placeholder=" Digite o nome que usará no certificado" required>
+                    </div>
+                    <label for="isobre">Sobrenome * </label>
+                    <div class="input">
+                        <input type="text" name="username" id="username" placeholder=" Digite o sobrenome que usará no certificado" required>
+                    </div>
+                    <label for="iemail">E-mail *</label>
+                    <div class="input">
+                        <input type="email" name="iemail" id="iemail" placeholder=" E-mail" required>
+                    </div>
+                    <label for="isenha">Senha *</label>
+                    <div class="input">
+                        <input type="password" name="isenha" id="isenha" placeholder=" Digite a senha" required minlength="8">
+                    </div>
+                    <label for="iconfi">Confirme a senha *</label>
+                    <div class="input">
+                        <input type="password" name="iconfi" id="iconfi" placeholder=" Confirme a senha" required>
+                    </div>
+                    <div class="input">
+                        <input type="submit" value="Registrar Gratuitamente" id="botao">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/582de78c5a.js" crossorigin="anonymous"></script>
+</body>
+</html>
